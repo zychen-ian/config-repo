@@ -40,4 +40,7 @@ logging:
   level:
     com.netflix: WARN
     org.springframework.web: WARN
-    com.itemsharing: DEBUG  
+    com.itemsharing: DEBUG
+
+signing:
+  key: 345345fsdgsf5345
