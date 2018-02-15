@@ -18,7 +18,9 @@ spring:
 security:
   basic:
     enabled: false
-
+  oauth2:
+    resource:
+      userInfoUrl: http://localhost:8901/user
 # debug: true
 
 server:
@@ -38,10 +40,4 @@ logging:
   level:
     com.netflix: WARN
     org.springframework.web: WARN
-    com.itemsharing: DEBUG
-
-
-security:
-  oauth2:
-    resource:
-      userInfoUrl: http://localhost:8901/user
+    com.itemsharing: DEBUG  
